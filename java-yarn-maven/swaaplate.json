@@ -1,5 +1,5 @@
 {
-  "generalConfig": {
+  "general": {
     "buildWebDir": "dist",
     "github": {
       "use": true,
@@ -11,7 +11,7 @@
     "title": "java-yarn-maven",
     "useYarn": true
   },
-  "packageJsonConfig": {
+  "packageJson": {
     "author": "Marcel Jänicke",
     "contributors": [{
       "name": "Marcel Jänicke",
@@ -22,7 +22,7 @@
     "name": "java-yarn-maven",
     "repository": "https://github.com/inpercima/swaaplate-hw/java-yarn-maven"
   },
-  "routeConfig": {
+  "route": {
     "default": "dashboard",
     "features": {
       "show": true
@@ -37,8 +37,8 @@
       "redirect": false
     }
   },
-  "serverConfig": {
-    "endpoint": "java",
+  "server": {
+    "backend": "java",
     "htaccess": false,
     "management": "maven",
     "packagePath": "net.inpercima.swaaplatehw.jym",

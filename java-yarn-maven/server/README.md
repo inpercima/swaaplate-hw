@@ -28,7 +28,7 @@ Note: These files will not be under version control and listed in .gitignore.
 ### Run in prodMode with real data
 
 ```bash
-./mvnw ./mvnw spring-boot:run -Pprod
+./mvnw spring-boot:run -Pprod
 ```
 
 ### Package in prodMode with real data
