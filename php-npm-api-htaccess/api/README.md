@@ -1,4 +1,4 @@
-# swaaplate - api
+# php-npm-api-htaccess - api
 
 ## Getting started
 

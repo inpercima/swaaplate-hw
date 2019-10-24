@@ -1,5 +1,5 @@
 {
-  "generalConfig": {
+  "general": {
     "buildWebDir": "dist",
     "github": {
       "use": true,
@@ -11,7 +11,7 @@
     "title": "php-npm-api-htaccess",
     "useYarn": false
   },
-  "packageJsonConfig": {
+  "packageJson": {
     "author": "Marcel Jänicke",
     "contributors": [{
       "name": "Marcel Jänicke",
@@ -22,7 +22,7 @@
     "name": "php-npm-api-htaccess",
     "repository": "https://github.com/inpercima/swaaplate-hw/php-npm-api-htaccess"
   },
-  "routeConfig": {
+  "route": {
     "default": "dashboard",
     "features": {
       "show": true
@@ -37,8 +37,8 @@
       "redirect": false
     }
   },
-  "serverConfig": {
-    "endpoint": "php",
+  "server": {
+    "backend": "php",
     "htaccess": false,
     "management": "",
     "packagePath": "",
