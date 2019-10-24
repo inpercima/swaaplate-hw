@@ -7,7 +7,7 @@
 This project helps to understand and test the latest versions and plugins of angular and webpack in combination with angular-cli in order to integrate them into other projects.
 It is only slightly adapted to preserve the structure but also to be able to map projects of the repositories of inpercima.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.13.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
 I changed from npm to yarn with `ng config -g cli.packageManager yarn`.
 
@@ -15,7 +15,7 @@ I changed from npm to yarn with `ng config -g cli.packageManager yarn`.
 
 ### Angular CLI
 
-* `angular-cli 8.3.13` or higher
+* `angular-cli 8.3.14` or higher
 
 ### Node, npm or yarn
 
@@ -30,7 +30,6 @@ I changed from npm to yarn with `ng config -g cli.packageManager yarn`.
 git clone https://github.com/inpercima/angular-cli
 cd angular-cli
 ```
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
