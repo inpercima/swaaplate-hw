@@ -39,10 +39,9 @@
   },
   "server": {
     "backend": "php",
-    "htaccess": false,
+    "htaccess": true,
     "management": "",
     "packagePath": "",
-    "separateReadme": true,
     "serverAsApi": true
   }
 }

@@ -5,7 +5,7 @@
 export const environment = {
   activateLogin: false,
   api: './api/',
-  apiSuffix: '.php',
+  apiSuffix: '',
   appname: 'php-npm-api-htaccess',
   defaultRoute: 'dashboard',
   production: false,

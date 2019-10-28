@@ -124,7 +124,7 @@ Defines the URL to the backend.
 
 Defines a suffix for the api to the backend.
 
-* default: `.php` | mock: EMPTY | production: `.php`
+* default: EMPTY
 * type: `string`
 
 ### `appname`
