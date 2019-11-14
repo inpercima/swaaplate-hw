@@ -9,6 +9,7 @@
     "selectorPrefix": "jym",
     "theme": "deeppurple-amber",
     "title": "java-yarn-maven",
+    "useDocker": false,
     "useYarn": true
   },
   "packageJson": {
