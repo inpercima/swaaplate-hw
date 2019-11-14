@@ -9,6 +9,7 @@
     "selectorPrefix": "py",
     "theme": "purple-green",
     "title": "php-yarn",
+    "useDocker": false,
     "useYarn": true
   },
   "packageJson": {
