@@ -9,6 +9,7 @@
     "selectorPrefix": "pnah",
     "theme": "deeppurple-amber",
     "title": "php-npm-api-htaccess",
+    "useDocker": false,
     "useYarn": false
   },
   "packageJson": {
