@@ -38,11 +38,17 @@ cp src/main/resources/application.yml src/main/resources/application-prod.yml
 ./mvnw spring-boot:run -Pprod
 ```
 
-### Package in prodMode
+### Package and run in prodMode
 
 ```bash
-./mvnw clean package -Pprod
+# package
+./mvnw clean package
 
-# without tests
-./mvnw clean package -Pprod -DskipTests
+# package without tests
+./mvnw clean package -DskipTests
+
+# place the `application-prod.yml` aside the java-yarn-maven-1.0.0-SNAPSHOT.jar and run the jar
+cp src/main/resources/application-prod.yml target/application-prod.yml
+cd target
+java -jar java-yarn-maven-1.0.0-SNAPSHOT.jar --spring.profiles.active=prod
 ```
