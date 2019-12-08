@@ -4,13 +4,13 @@
 
 An angular web project by swaaplate with php and npm. Php code as api including a htaccess-file.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 0.5.1-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.0.1-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 8.3.19` or higher
+* `angular-cli 8.3.20` or higher
 
 ### Apache and php
 
