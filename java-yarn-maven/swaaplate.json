@@ -43,7 +43,6 @@
     "htaccess": false,
     "management": "maven",
     "packagePath": "net.inpercima.swaaplatehw.jym",
-    "separateReadme": true,
     "serverAsApi": true
   }
 }
