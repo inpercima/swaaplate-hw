@@ -1,7 +1,7 @@
 # php-yarn - client
 
-[![dependencies Status](https://david-dm.org/inpercima/php-yarn/status.svg?path=client)](https://david-dm.org/inpercima/php-yarn?path=client)
-[![devDependencies Status](https://david-dm.org/inpercima/php-yarn/dev-status.svg?path=client)](https://david-dm.org/inpercima/php-yarn?path=client&type=dev)
+[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=php-yarn/client)](https://david-dm.org/inpercima/swaaplate-hw?path=php-yarn/client)
+[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=php-yarn/client)](https://david-dm.org/inpercima/swaaplate-hw?path=php-yarn/client&type=dev)
 
 ## Getting started
 

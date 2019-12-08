@@ -1,7 +1,7 @@
 # java-yarn-maven - client
 
-[![dependencies Status](https://david-dm.org/inpercima/java-yarn-maven/status.svg?path=client)](https://david-dm.org/inpercima/java-yarn-maven?path=client)
-[![devDependencies Status](https://david-dm.org/inpercima/java-yarn-maven/dev-status.svg?path=client)](https://david-dm.org/inpercima/java-yarn-maven?path=client&type=dev)
+[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=java-yarn-maven/client)](https://david-dm.org/inpercima/swaaplate-hw?path=java-yarn-maven/client)
+[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=java-yarn-maven/client)](https://david-dm.org/inpercima/swaaplate-hw?path=java-yarn-maven/client&type=dev)
 
 ## Getting started
 
