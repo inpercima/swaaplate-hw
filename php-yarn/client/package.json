@@ -19,7 +19,7 @@
     "@angular/platform-browser-dynamic": "8.2.14",
     "@angular/router": "8.2.14",
     "@auth0/angular-jwt": "3.0.1",
-    "core-js": "3.4.5",
+    "core-js": "3.6.0",
     "json-server": "0.15.1",
     "jsonwebtoken": "8.5.1",
     "rxjs": "6.5.3",
@@ -28,14 +28,16 @@
   },
   "description": "An angular web project by swaaplate with php and yarn.",
   "devDependencies": {
-    "@angular-devkit/build-angular": "0.803.20",
-    "@angular/cli": "8.3.20",
+    "@angular-builders/custom-webpack": "8.4.1",
+    "@angular-devkit/build-angular": "0.803.21",
+    "@angular/cli": "8.3.21",
     "@angular/compiler-cli": "8.2.14",
     "@angular/language-service": "8.2.14",
-    "@types/node": "12.12.14",
+    "@types/node": "12.12.21",
     "@types/jasmine": "3.5.0",
     "@types/jasminewd2": "2.0.8",
-    "codelyzer": "5.2.0",
+    "codelyzer": "5.2.1",
+    "copy-webpack-plugin": "4.6.0",
     "jasmine-core": "3.5.0",
     "jasmine-spec-reporter": "4.2.1",
     "karma": "4.4.1",
@@ -46,9 +48,7 @@
     "protractor": "5.4.2",
     "ts-node": "8.5.4",
     "tslint": "5.20.1",
-    "typescript": "3.5.3",
-    "copy-webpack-plugin": "4.6.0",
-    "@angular-builders/custom-webpack": "8.4.1"
+    "typescript": "3.5.3"
   },
   "engines": {
     "node": ">=12.3.1"
