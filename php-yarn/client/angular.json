@@ -148,5 +148,8 @@
       }
     }
   },
-  "defaultProject": "php-yarn"
+  "defaultProject": "php-yarn",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }
