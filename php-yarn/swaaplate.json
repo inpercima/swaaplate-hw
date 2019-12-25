@@ -1,42 +1,44 @@
 {
   "general": {
-    "buildWebDir": "dist",
+    "author": "Marcel Jänicke",
+    "description": "An angular web project by swaaplate with php and yarn.",
     "github": {
       "use": true,
       "username": "inpercima"
     },
+    "name": "php-yarn",
+    "title": "php-yarn",
+    "useDocker": false
+  },
+  "client": {
+    "buildDir": "dist",
     "installDependencies": true,
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw/php-yarn",
+      "repository": "https://github.com/inpercima/swaaplate-hw/php-yarn"
+    },
+    "route": {
+      "features": {
+        "default": "dashboard",
+        "show": true
+      },
+      "login": {
+        "activate": false,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "name": "not-found",
+        "redirect": false
+      }
+    },
     "selectorPrefix": "py",
     "theme": "purple-green",
-    "title": "php-yarn",
-    "useDocker": false,
     "useYarn": true
-  },
-  "packageJson": {
-    "author": "Marcel Jänicke",
-    "contributors": [{
-      "name": "Marcel Jänicke",
-      "email": "inpercima@gmail.com"
-    }],
-    "description": "An angular web project by swaaplate with php and yarn.",
-    "homepage": "https://github.com/inpercima/swaaplate-hw/php-yarn",
-    "name": "php-yarn",
-    "repository": "https://github.com/inpercima/swaaplate-hw/php-yarn"
-  },
-  "route": {
-    "default": "dashboard",
-    "features": {
-      "show": true
-    },
-    "login": {
-      "activate": false,
-      "name": "login",
-      "show": false
-    },
-    "notFound": {
-      "name": "not-found",
-      "redirect": false
-    }
   },
   "server": {
     "backend": "php",
