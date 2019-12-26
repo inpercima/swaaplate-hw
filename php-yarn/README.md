@@ -20,8 +20,8 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ### Node, npm or yarn
 
 * `node 12.3.1` or higher in combination with
-  * `npm 6.12.1` or higher, used in this repository, or
-  * `yarn 1.19.1` or higher
+  * `npm 6.12.1` or higher or
+  * `yarn 1.19.1` or higher, used in this repositor
 
 ## Dependency check
 
