@@ -4,7 +4,7 @@
 
 An angular web project by swaaplate with php and yarn.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.1.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.1.0.
 
 ## Prerequisites
 
