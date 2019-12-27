@@ -145,5 +145,8 @@
       }
     }
   },
-  "defaultProject": "java-yarn-maven"
+  "defaultProject": "java-yarn-maven",
+  "cli": {
+    "packageManager": "yarn"
+  }
 }

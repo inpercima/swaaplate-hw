@@ -1,42 +1,44 @@
 {
   "general": {
-    "buildWebDir": "dist",
+    "author": "Marcel Jänicke",
+    "description": "An angular web project by swaaplate with java, yarn and maven.",
     "github": {
       "use": true,
       "username": "inpercima"
     },
+    "name": "java-yarn-maven",
+    "title": "java-yarn-maven",
+    "useDocker": false
+  },
+  "client": {
+    "buildDir": "dist",
     "installDependencies": true,
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw/java-yarn-maven",
+      "repository": "https://github.com/inpercima/swaaplate-hw/java-yarn-maven"
+    },
+    "route": {
+      "features": {
+        "default": "dashboard",
+        "show": true
+      },
+      "login": {
+        "activate": true,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "name": "not-found",
+        "redirect": false
+      }
+    },
     "selectorPrefix": "jym",
     "theme": "deeppurple-amber",
-    "title": "java-yarn-maven",
-    "useDocker": false,
     "useYarn": true
-  },
-  "packageJson": {
-    "author": "Marcel Jänicke",
-    "contributors": [{
-      "name": "Marcel Jänicke",
-      "email": "inpercima@gmail.com"
-    }],
-    "description": "An angular web project by swaaplate with java, yarn and maven.",
-    "homepage": "https://github.com/inpercima/swaaplate-hw/java-yarn-maven",
-    "name": "java-yarn-maven",
-    "repository": "https://github.com/inpercima/swaaplate-hw/java-yarn-maven"
-  },
-  "route": {
-    "default": "dashboard",
-    "features": {
-      "show": true
-    },
-    "login": {
-      "activate": true,
-      "name": "login",
-      "show": false
-    },
-    "notFound": {
-      "name": "not-found",
-      "redirect": false
-    }
   },
   "server": {
     "backend": "java",
