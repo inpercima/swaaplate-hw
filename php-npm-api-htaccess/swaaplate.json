@@ -1,42 +1,44 @@
 {
   "general": {
-    "buildWebDir": "dist",
+    "author": "Marcel Jänicke",
+    "description": "An angular web project by swaaplate with php and npm. Php code as api including a htaccess-file.",
     "github": {
       "use": true,
       "username": "inpercima"
     },
+    "name": "php-npm-api-htaccess",
+    "title": "php-npm-api-htaccess",
+    "useDocker": false
+  },
+  "client": {
+    "builDir": "dist",
     "installDependencies": true,
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw/php-npm-api-htaccess",
+      "repository": "https://github.com/inpercima/swaaplate-hw/php-npm-api-htaccess"
+    },
+    "route": {
+      "features": {
+        "default": "dashboard",
+        "show": true
+      },
+      "login": {
+        "activate": false,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "name": "not-found",
+        "redirect": false
+      }
+    },
     "selectorPrefix": "pnah",
     "theme": "deeppurple-amber",
-    "title": "php-npm-api-htaccess",
-    "useDocker": false,
     "useYarn": false
-  },
-  "packageJson": {
-    "author": "Marcel Jänicke",
-    "contributors": [{
-      "name": "Marcel Jänicke",
-      "email": "inpercima@gmail.com"
-    }],
-    "description": "An angular web project by swaaplate with php and npm. Php code as api including a htaccess-file.",
-    "homepage": "https://github.com/inpercima/swaaplate-hw/php-npm-api-htaccess",
-    "name": "php-npm-api-htaccess",
-    "repository": "https://github.com/inpercima/swaaplate-hw/php-npm-api-htaccess"
-  },
-  "route": {
-    "default": "dashboard",
-    "features": {
-      "show": true
-    },
-    "login": {
-      "activate": false,
-      "name": "login",
-      "show": false
-    },
-    "notFound": {
-      "name": "not-found",
-      "redirect": false
-    }
   },
   "server": {
     "backend": "php",

@@ -4,7 +4,7 @@
 
 An angular web project by swaaplate with php and npm. Php code as api including a htaccess-file.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.0.2-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.1.0.
 
 ## Prerequisites
 
