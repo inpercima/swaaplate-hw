@@ -4,7 +4,7 @@
 
 An angular web project by swaaplate with java, yarn and maven.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.1.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 1.1.1-SNAPSHOT.
 
 ## Prerequisites
 
