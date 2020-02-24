@@ -1,0 +1,53 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw/hello-world",
+      "repository": "https://github.com/inpercima/swaaplate-hw/hello-world"
+    },
+    "prefix": "hw",
+    "routing": {
+      "enabled": true,
+      "features": {
+        "default": "hello-world",
+        "show": true
+      },
+      "login": {
+        "activate": true,
+        "enabled": true,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found",
+        "redirect": true
+      }
+    },
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "A hello world app by swaaplate",
+    "name": "hello-world",
+    "title": "Hello world",
+    "useDocker": false,
+    "useMITLicense": true
+  },
+  "server": {
+    "backend": "js",
+    "htaccess": false,
+    "management": "",
+    "packagePath": "",
+    "serverAsApi": false
+  }
+}
