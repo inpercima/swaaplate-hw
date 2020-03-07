@@ -24,7 +24,6 @@ export class AuthService {
    */
   public login(formGroup: FormGroup) {
     return this.http.post<any>(this.requestService.url('auth'), formGroup.value).pipe(map(response => {
-      console.log(response);
       if (response !== null) {
         // set the token property for validate token in the app
         localStorage.setItem('access_token', response.token);

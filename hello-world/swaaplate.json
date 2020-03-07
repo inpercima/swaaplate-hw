@@ -9,18 +9,19 @@
         "name": "Marcel Jänicke",
         "email": "inpercima@gmail.com"
       }],
-      "homepage": "https://github.com/inpercima/swaaplate-hw/hello-world",
-      "repository": "https://github.com/inpercima/swaaplate-hw/hello-world"
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
     },
     "prefix": "hw",
     "routing": {
       "enabled": true,
       "features": {
         "default": "hello-world",
+        "name": "features",
         "show": true
       },
       "login": {
-        "activate": true,
+        "activate": false,
         "enabled": true,
         "name": "login",
         "show": false
@@ -37,7 +38,7 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "A hello world app by swaaplate",
+    "description": "Example App with default options.",
     "name": "hello-world",
     "title": "Hello world",
     "useDocker": false,

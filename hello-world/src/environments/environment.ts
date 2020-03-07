@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  activateLogin: true,
+  activateLogin: false,
   api: './',
   apiSuffix: '',
   appname: 'Hello world',

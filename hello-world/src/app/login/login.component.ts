@@ -29,7 +29,6 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.authService);
     this.authService.login(this.loginForm).subscribe(() => {
       if (this.isAuthenticated()) {
         this.wrongLogin = false;

@@ -7,30 +7,30 @@
     }
   ],
   "dependencies": {
-    "@angular/animations": "~9.0.1",
-    "@angular/common": "~9.0.1",
-    "@angular/compiler": "~9.0.1",
-    "@angular/core": "~9.0.1",
-    "@angular/forms": "~9.0.1",
-    "@angular/platform-browser": "~9.0.1",
-    "@angular/platform-browser-dynamic": "~9.0.1",
-    "@angular/router": "~9.0.1",
+    "@angular/animations": "~9.0.5",
+    "@angular/common": "~9.0.5",
+    "@angular/compiler": "~9.0.5",
+    "@angular/core": "~9.0.5",
+    "@angular/forms": "~9.0.5",
+    "@angular/platform-browser": "~9.0.5",
+    "@angular/platform-browser-dynamic": "~9.0.5",
+    "@angular/router": "~9.0.5",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "@angular/cdk": "~9.0.1",
+    "@angular/cdk": "~9.1.1",
     "@angular/flex-layout": "~9.0.0-beta.29",
-    "@angular/material": "~9.0.1",
+    "@angular/material": "~9.1.1",
     "@auth0/angular-jwt": "~3.0.1",
     "json-server": "~0.15.1",
     "jsonwebtoken": "~8.5.1"
   },
-  "description": "A hello world app by swaaplate",
+  "description": "Example App with default options.",
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.900.2",
-    "@angular/cli": "~9.0.2",
-    "@angular/compiler-cli": "~9.0.1",
-    "@angular/language-service": "~9.0.1",
+    "@angular-devkit/build-angular": "~0.900.5",
+    "@angular/cli": "~9.0.5",
+    "@angular/compiler-cli": "~9.0.5",
+    "@angular/language-service": "~9.0.5",
     "@types/node": "^12.11.1",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
@@ -48,12 +48,13 @@
     "typescript": "~3.7.5"
   },
   "engines": {
-    "node": ">=12.16.0"
+    "node": ">=12.16.1"
   },
-  "homepage": "https://github.com/inpercima/swaaplate-hw/hello-world",
+  "homepage": "https://github.com/inpercima/swaaplate-hw",
+  "license": "MIT",
   "name": "hello-world",
   "private": true,
-  "repository": "https://github.com/inpercima/swaaplate-hw/hello-world",
+  "repository": "https://github.com/inpercima/swaaplate-hw",
   "scripts": {
     "build:dev": "ng lint && ng build --configuration=dev",
     "serve:dev": "ng serve -o --configuration=dev",
@@ -64,5 +65,5 @@
     "watch:mock": "ng build --watch --configuration=mock",
     "build:prod": "ng lint && ng build --prod"
   },
-  "license": "MIT"
+  "version": "1.0.0-SNAPSHOT"
 }
