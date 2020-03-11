@@ -1,0 +1,54 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
+    },
+    "prefix": "hw",
+    "routing": {
+      "enabled": true,
+      "features": {
+        "default": "hello-world",
+        "name": "features",
+        "show": true
+      },
+      "login": {
+        "activate": false,
+        "enabled": true,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found",
+        "redirect": true
+      }
+    },
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Example App with default options, backend: java, management: maven.",
+    "name": "hello-world-java-maven",
+    "title": "Hello world with java and maven",
+    "useDocker": false,
+    "useMITLicense": true
+  },
+  "server": {
+    "backend": "java",
+    "htaccess": false,
+    "management": "maven",
+    "packagePath": "net.inpercima.swaaplate",
+    "serverAsApi": false
+  }
+}
