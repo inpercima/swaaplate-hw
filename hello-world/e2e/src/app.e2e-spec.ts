@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display title in toolbar', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('hello-world');
+    expect(page.getTitleText()).toEqual('Hello world');
   });
 
   afterEach(async () => {

@@ -27,16 +27,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as appname 'hello-world'`, () => {
+  it(`should have as appname 'Hello world'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.appname).toEqual('hello-world');
+    expect(app.appname).toEqual('Hello world');
   });
 
   it('should render toolbar', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('mat-toolbar').textContent).toContain('hello-world');
+    expect(compiled.querySelector('mat-toolbar').textContent).toContain('Hello world');
   });
 });
