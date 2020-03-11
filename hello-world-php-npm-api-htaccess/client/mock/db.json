@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hello-world-php-npm-api-htaccess",
+      "password": "hello-world-php-npm-api-htaccess"
+    }
+  ]
+}

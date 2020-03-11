@@ -1,0 +1,54 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
+    },
+    "prefix": "hw",
+    "routing": {
+      "enabled": true,
+      "features": {
+        "default": "hello-world",
+        "name": "features",
+        "show": true
+      },
+      "login": {
+        "activate": false,
+        "enabled": true,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found",
+        "redirect": true
+      }
+    },
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": false
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Example App with default options but useYarn: false, backend: php, htaccess: true, serverAsApi: true.",
+    "name": "hello-world-php-npm-api-htaccess",
+    "title": "Hello world with php, npm, api folder and htaccess file",
+    "useDocker": false,
+    "useMITLicense": true
+  },
+  "server": {
+    "backend": "php",
+    "htaccess": true,
+    "management": "",
+    "packagePath": "",
+    "serverAsApi": true
+  }
+}
