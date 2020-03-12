@@ -47,5 +47,3 @@ cd hello-world-php
 For the server check [hello-world-php - server](./server).
 
 For the client check [hello-world-php - client](./client).
-
-

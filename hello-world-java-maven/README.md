@@ -41,5 +41,3 @@ cd hello-world-java-maven
 For the server check [hello-world-java-maven - server](./server).
 
 For the client check [hello-world-java-maven - client](./client).
-
-

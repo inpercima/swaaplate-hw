@@ -47,5 +47,3 @@ cd hello-world-php-npm-api-htaccess
 For the server check [hello-world-php-npm-api-htaccess - server](./server).
 
 For the client check [hello-world-php-npm-api-htaccess - client](./client).
-
-
