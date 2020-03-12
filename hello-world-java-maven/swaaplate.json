@@ -38,7 +38,7 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example App with default options, backend: java, management: maven.",
+    "description": "Example app with default options but backend: java, management: maven.",
     "name": "hello-world-java-maven",
     "title": "Hello world with java and maven",
     "useDocker": false,

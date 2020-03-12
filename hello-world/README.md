@@ -4,7 +4,7 @@
 [![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world)
 [![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world&type=dev)
 
-Example App with default options.
+Example app with default options.
 
 This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0-SNAPSHOT.
 

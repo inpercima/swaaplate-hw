@@ -38,7 +38,7 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example App with default options.",
+    "description": "Example app with default options.",
     "name": "hello-world",
     "title": "Hello world",
     "useDocker": false,

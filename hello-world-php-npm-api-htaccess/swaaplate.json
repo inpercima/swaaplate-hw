@@ -38,7 +38,7 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example App with default options but useYarn: false, backend: php, htaccess: true, serverAsApi: true.",
+    "description": "Example app with default options but useYarn: false, backend: php, htaccess: true, serverAsApi: true.",
     "name": "hello-world-php-npm-api-htaccess",
     "title": "Hello world with php, npm, api folder and htaccess file",
     "useDocker": false,

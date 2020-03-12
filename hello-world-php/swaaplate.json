@@ -38,7 +38,7 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example App with default options but backend: php.",
+    "description": "Example app with default options but backend: php.",
     "name": "hello-world-php",
     "title": "Hello world with php",
     "useDocker": false,
