@@ -5,15 +5,7 @@ import { AuthGuard } from '../core/auth-guard.service';
 import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { environment } from '../../environments/environment';
 
-import { AuthGuard } from '../core/auth-guard.service';
-import { HelloWorldComponent } from './hello-world/hello-world.component';
-import { environment } from '../../environments/environment';
-
 const routes: Routes = [{
-  canActivate: [AuthGuard],
-  component: HelloWorldComponent,
-  path: environment.defaultRoute,
-}{
   canActivate: [AuthGuard],
   component: HelloWorldComponent,
   path: environment.defaultRoute,
