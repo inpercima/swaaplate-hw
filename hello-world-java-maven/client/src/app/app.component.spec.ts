@@ -33,7 +33,7 @@ describe('AppComponent', () => {
     expect(app.appname).toEqual('Hello world with java and maven');
   });
 
-  it('should render title', () => {
+  it('should render toolbar', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
