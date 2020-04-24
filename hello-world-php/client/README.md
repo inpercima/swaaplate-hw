@@ -1,7 +1,7 @@
 # Hello world with php - client
 
-[![dependencies Status](https://david-dm.org/inpercima/hello-world-php/status.svg?path=client)](https://david-dm.org/inpercima/hello-world-php?path=client)
-[![devDependencies Status](https://david-dm.org/inpercima/hello-world-php/dev-status.svg?path=client)](https://david-dm.org/inpercima/hello-world-php?path=client&type=dev)
+[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world-php/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php/client)
+[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world-php/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php/client&type=dev)
 
 ## Getting started
 
