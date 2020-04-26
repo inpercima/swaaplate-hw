@@ -42,7 +42,8 @@
     "name": "hello-world-php",
     "title": "Hello world with php",
     "useDocker": false,
-    "useMITLicense": true
+    "useMITLicense": true,
+    "useMock": false
   },
   "server": {
     "backend": "php",
