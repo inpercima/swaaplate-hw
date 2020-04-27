@@ -42,7 +42,8 @@
     "name": "hello-world-php-npm-api-htaccess",
     "title": "Hello world with php, npm, api folder and htaccess file",
     "useDocker": false,
-    "useMITLicense": true
+    "useMITLicense": true,
+    "useMock": false
   },
   "server": {
     "backend": "php",

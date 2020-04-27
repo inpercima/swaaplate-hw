@@ -21,9 +21,7 @@
     "@angular/cdk": "~9.2.1",
     "@angular/flex-layout": "~9.0.0-beta.29",
     "@angular/material": "~9.2.1",
-    "@auth0/angular-jwt": "~4.0.0",
-    "json-server": "~0.16.1",
-    "jsonwebtoken": "~8.5.1"
+    "@auth0/angular-jwt": "~4.0.0"
   },
   "description": "Example app with default options.",
   "devDependencies": {
@@ -59,10 +57,6 @@
     "build:dev": "ng lint && ng build --configuration=dev",
     "serve:dev": "ng serve -o --configuration=dev",
     "watch:dev": "ng build --watch --configuration=dev",
-    "build:mock": "ng lint && ng build --configuration=mock",
-    "run:mock": "json-server mock/db.json --middlewares mock/middleware.js",
-    "serve:mock": "ng serve -o --configuration=mock",
-    "watch:mock": "ng build --watch --configuration=mock",
     "build:prod": "ng lint && ng build --prod"
   },
   "version": "1.0.0-SNAPSHOT"
