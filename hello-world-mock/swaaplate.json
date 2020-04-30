@@ -1,0 +1,55 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
+    },
+    "prefix": "hw",
+    "routing": {
+      "enabled": true,
+      "features": {
+        "default": "hello-world",
+        "name": "features",
+        "show": true
+      },
+      "login": {
+        "activate": false,
+        "enabled": true,
+        "name": "login",
+        "show": false
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found",
+        "redirect": true
+      }
+    },
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Example app with default options but useMock: true",
+    "name": "hello-world-mock",
+    "title": "Hello world with mock",
+    "useDocker": false,
+    "useMITLicense": true,
+    "useMock": true
+  },
+  "server": {
+    "backend": "js",
+    "htaccess": false,
+    "management": "",
+    "packagePath": "",
+    "serverAsApi": false
+  }
+}
