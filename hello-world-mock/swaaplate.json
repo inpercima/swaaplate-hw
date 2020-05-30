@@ -43,7 +43,7 @@
     "title": "Hello world with mock",
     "useDocker": false,
     "useMITLicense": true,
-    "useMock": false
+    "useMock": true
   },
   "server": {
     "backend": "js",
