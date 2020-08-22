@@ -10,7 +10,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Angular CLI
 
-* `angular-cli 9.1.3` or higher
+* `angular-cli 10.0.7` or higher
 
 ### Apache and php
 
@@ -36,7 +36,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world-php
+cd swaaplate-hw/hello-world-php
 ```
 
 ## Usage
