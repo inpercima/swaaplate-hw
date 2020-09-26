@@ -1,0 +1,54 @@
+{
+  "client": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "modules": {
+      "enabled": true,
+      "features": {
+        "defaultRoute": "hello-world",
+        "name": "features"
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found"
+      },
+      "routing": true
+    },
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
+    },
+    "prefix": "hw",
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Example app with default options but routing: false.",
+    "modRewriteIndex": false,
+    "name": "hello-world-no-routing",
+    "title": "Hello world without routing",
+    "useDocker": false,
+    "useMITLicense": true,
+    "useMock": false,
+    "useSecurity": false
+  },
+  "server": {
+    "backend": "js",
+    "javaKt": {
+      "management": "maven",
+      "packagePath": ""
+    },
+    "php": {
+      "modRewritePhpExtension": false,
+      "serverAsApi": false
+    }
+  }
+}
