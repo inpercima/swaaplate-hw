@@ -4,6 +4,18 @@
     "ghUser": "inpercima",
     "installDependencies": true,
     "language": "en",
+    "modules": {
+      "enabled": true,
+      "features": {
+        "defaultRoute": "hello-world",
+        "name": "features"
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found"
+      },
+      "routing": true
+    },
     "packageJson": {
       "contributors": [{
         "name": "Marcel Jänicke",
@@ -13,43 +25,30 @@
       "repository": "https://github.com/inpercima/swaaplate-hw"
     },
     "prefix": "hw",
-    "routing": {
-      "enabled": true,
-      "features": {
-        "default": "hello-world",
-        "name": "features",
-        "show": true
-      },
-      "login": {
-        "activate": false,
-        "enabled": true,
-        "name": "login",
-        "show": false
-      },
-      "notFound": {
-        "enabled": true,
-        "name": "not-found",
-        "redirect": true
-      }
-    },
     "theme": "indigo-pink",
     "useGoogleFonts": true,
     "useYarn": true
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example app with default options but useMock: true",
+    "description": "Example app with default options but useMock: true.",
+    "modRewriteIndex": false,
     "name": "hello-world-mock",
     "title": "Hello world with mock",
     "useDocker": false,
     "useMITLicense": true,
-    "useMock": true
+    "useMock": true,
+    "useSecurity": false
   },
   "server": {
     "backend": "js",
-    "htaccess": false,
-    "management": "",
-    "packagePath": "",
-    "serverAsApi": false
+    "javaKt": {
+      "management": "maven",
+      "packagePath": ""
+    },
+    "php": {
+      "modRewritePhpExtension": false,
+      "serverAsApi": false
+    }
   }
 }

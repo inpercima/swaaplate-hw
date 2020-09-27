@@ -4,21 +4,21 @@
 [![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world-mock)](https://david-dm.org/inpercima/https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock)
 [![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world-mock)](https://david-dm.org/inpercima/https://david-dm.org/inpercima/swaaplate-hw?hello-world-mock&type=dev)
 
-Example app with default options but useMock: true
+Example app with default options but useMock: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 10.0.7` or higher
+* `angular-cli 10.1.3` or higher
 
 ### Node, npm or yarn
 
 * `node 12.16.1` or higher in combination with
   * `npm 6.13.4` or higher or
-  * `yarn 1.22.4` or higher, used in this repository
+  * `yarn 1.22.5` or higher, used in this repository
 
 ## Dependency check
 
@@ -32,7 +32,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world-mock
+cd hello-world-mock
 
 # install tools and frontend dependencies
 yarn
@@ -109,24 +109,12 @@ Change for prodMode the option `production` to `true` and for mockMode the optio
 
 ### Table of contents
 
-* [activateLogin](#activateLogin)
 * [api](#api)
 * [apiSuffix](#apiSuffix)
 * [appname](#appname)
 * [defaultRoute](#defaultRoute)
 * [production](#production)
-* [redirectNotFound](#redirectNotFound)
-* [showFeatures](#showFeatures)
-* [showLogin](#showLogin)
 * [theme](#theme)
-
-### `activateLogin`
-
-Defines whether the login module will be used or not.
-
-* default: `false`
-* type: `boolean`
-* values: `true`/`false`
 
 ### `api`
 
@@ -159,30 +147,6 @@ The default route and the route to be redirected after a login if no route is st
 ### `production`
 
 Defines whether the app is in production or not.
-
-* default: `false`
-* type: `boolean`
-* values: `true`/`false`
-
-### `redirectNotFound`
-
-Defines whether the 404 route will redirect to the default route or not.
-
-* default: `true`
-* type: `boolean`
-* values: `true`/`false`
-
-### `showFeatures`
-
-Defines whether the feature routes will be displayed in navigation or not.
-
-* default: `true`
-* type: `boolean`
-* values: `true`/`false`
-
-### `showLogin`
-
-Defines whether the login route will be displayed in navigation or not.
 
 * default: `false`
 * type: `boolean`
