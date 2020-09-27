@@ -14,7 +14,7 @@
         "enabled": true,
         "name": "not-found"
       },
-      "routing": true
+      "routing": false
     },
     "packageJson": {
       "contributors": [{
