@@ -33,7 +33,7 @@
     "author": "Marcel Jänicke",
     "description": "Example app with default options but routing: false.",
     "modRewriteIndex": false,
-    "name": "hello-world-no-routing",
+    "name": "hello-world-without-routing",
     "title": "Hello world without routing",
     "useDocker": false,
     "useMITLicense": true,

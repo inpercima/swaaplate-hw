@@ -48,7 +48,7 @@
   },
   "homepage": "https://github.com/inpercima/swaaplate-hw",
   "license": "MIT",
-  "name": "hello-world-no-routing",
+  "name": "hello-world-without-routing",
   "private": true,
   "repository": "https://github.com/inpercima/swaaplate-hw",
   "scripts": {

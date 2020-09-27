@@ -1,8 +1,8 @@
 # Hello world without routing
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
-[![dependencies Status](https://david-dm.org/inpercima/hello-world-no-routing/status.svg)](https://david-dm.org/inpercima/hello-world-no-routing)
-[![devDependencies Status](https://david-dm.org/inpercima/hello-world-no-routing/dev-status.svg)](https://david-dm.org/inpercima/hello-world-no-routing?type=dev)
+[![dependencies Status](https://david-dm.org/inpercima/hello-world-without-routing/status.svg)](https://david-dm.org/inpercima/hello-world-without-routing)
+[![devDependencies Status](https://david-dm.org/inpercima/hello-world-without-routing/dev-status.svg)](https://david-dm.org/inpercima/hello-world-without-routing?type=dev)
 
 Example app with default options but routing: false.
 
@@ -32,7 +32,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world-no-routing
+cd swaaplate-hw/hello-world-without-routing
 
 # install tools and frontend dependencies
 yarn
