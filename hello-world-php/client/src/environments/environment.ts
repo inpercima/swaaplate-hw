@@ -3,15 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  activateLogin: false,
   api: './',
   apiSuffix: '.php',
   appname: 'Hello world with php',
   defaultRoute: 'hello-world',
   production: false,
-  redirectNotFound: true,
-  showFeatures: true,
-  showLogin: false,
   theme: 'indigo-pink',
 };
 
