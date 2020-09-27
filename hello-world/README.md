@@ -6,7 +6,7 @@
 
 Example app with default options.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0.
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world
+cd hello-world
 
 # install tools and frontend dependencies
 yarn

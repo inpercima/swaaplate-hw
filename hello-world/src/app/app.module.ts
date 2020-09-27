@@ -11,7 +11,6 @@ import { AppRoutingPipe } from './app-routing.pipe';
 import { FeaturesModule } from './features/features.module';
 import { NotFoundModule } from './not-found/not-found.module';
 
-
 @NgModule({
   declarations: [
     AppComponent,
