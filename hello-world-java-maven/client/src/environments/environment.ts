@@ -3,15 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  activateLogin: false,
   api: 'http://localhost:8080/',
   apiSuffix: '',
   appname: 'Hello world with java and maven',
   defaultRoute: 'hello-world',
   production: false,
-  redirectNotFound: true,
-  showFeatures: true,
-  showLogin: false,
   theme: 'indigo-pink',
 };
 
