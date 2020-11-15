@@ -4,13 +4,13 @@
 
 Example app with default options but backend: php.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.2-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 10.1.3` or higher
+* `angular-cli 11.0.1` or higher
 
 ### Apache and php
 
@@ -19,8 +19,8 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Node, npm or yarn
 
-* `node 12.16.1` or higher in combination with
-  * `npm 6.13.4` or higher or
+* `node 12.19.0` or higher in combination with
+  * `npm 6.14.8` or higher or
   * `yarn 1.22.5` or higher, used in this repository
 
 ## Dependency check
@@ -29,7 +29,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 
 | library    | current version | wanted version | reason |
 | ---------- | --------------- | -------------- | ------ |
-| copy-webpack-plugin | 6.0.2 | 5.1.1 | "copy-webpack-plugin@5.1.1" has unmet peer dependency "webpack@^4.0.0" |
+| copy-webpack-plugin | 4.6.0 | 6.2.0 | "copy-webpack-plugin@6.2.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0" |
 
 ## Getting started
 
