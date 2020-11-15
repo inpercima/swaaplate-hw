@@ -43,7 +43,7 @@
   "server": {
     "backend": "js",
     "javaKt": {
-      "management": "maven",
+      "management": "",
       "packagePath": ""
     },
     "php": {
