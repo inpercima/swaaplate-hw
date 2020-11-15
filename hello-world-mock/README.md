@@ -1,23 +1,23 @@
 # Hello world with mock
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
-[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world-mock)](https://david-dm.org/inpercima/https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock)
-[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world-mock)](https://david-dm.org/inpercima/https://david-dm.org/inpercima/swaaplate-hw?hello-world-mock&type=dev)
+[![dependencies Status](https://david-dm.org/inpercima/hello-world-mock/status.svg)](https://david-dm.org/inpercima/hello-world-mock)
+[![devDependencies Status](https://david-dm.org/inpercima/hello-world-mock/dev-status.svg)](https://david-dm.org/inpercima/hello-world-mock?type=dev)
 
 Example app with default options but useMock: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.0.2-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 10.1.3` or higher
+* `angular-cli 11.0.1` or higher
 
 ### Node, npm or yarn
 
-* `node 12.16.1` or higher in combination with
-  * `npm 6.13.4` or higher or
+* `node 12.19.0` or higher in combination with
+  * `npm 6.14.8` or higher or
   * `yarn 1.22.5` or higher, used in this repository
 
 ## Dependency check
@@ -32,7 +32,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world-mock
+cd swaaplate-hw/hello-world-mock
 
 # install tools and frontend dependencies
 yarn
