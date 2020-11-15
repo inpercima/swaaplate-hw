@@ -32,7 +32,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world
+cd swaaplate-hw/hello-world
 
 # install tools and frontend dependencies
 yarn
