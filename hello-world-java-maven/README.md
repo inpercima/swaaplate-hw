@@ -4,13 +4,13 @@
 
 Example app with default options but backend: java, management: maven.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.1.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.2.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 11.0.1` or higher
+* `angular-cli 11.1.4` or higher
 
 ### Java
 

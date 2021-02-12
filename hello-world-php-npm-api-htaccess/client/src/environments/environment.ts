@@ -4,7 +4,6 @@
 
 export const environment = {
   api: './api/',
-  apiSuffix: '.php',
   appname: 'Hello world with php, npm, api folder and htaccess file',
   defaultRoute: 'hello-world',
   production: false,

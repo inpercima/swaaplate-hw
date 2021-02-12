@@ -27,6 +27,8 @@ import { NotFoundModule } from './not-found/not-found.module';
     NotFoundModule,
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [
+    AppComponent,
+  ],
 })
 export class AppModule { }

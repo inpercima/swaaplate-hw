@@ -1,7 +1,7 @@
 # Hello world with php, npm, api folder and htaccess file - client
 
-[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world-php-npm-api-htaccess/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client)
-[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world-php-npm-api-htaccess/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client&type=dev)
+[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php-npm-api-htaccess/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client)
+[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php-npm-api-htaccess/client&type=dev)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client&type=dev)
 
 ## Getting started
 
@@ -70,7 +70,6 @@ Change for prodMode the option `production` to `true`.
 ### Table of contents
 
 * [api](#api)
-* [apiSuffix](#apiSuffix)
 * [appname](#appname)
 * [defaultRoute](#defaultRoute)
 * [production](#production)
@@ -80,14 +79,7 @@ Change for prodMode the option `production` to `true`.
 
 Defines the URL to the backend.
 
-* default: `./api/`
-* type: `string`
-
-### `apiSuffix`
-
-Defines a suffix for the api to the backend.
-
-* default: `.php`
+* default: `./`
 * type: `string`
 
 ### `appname`

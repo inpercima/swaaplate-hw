@@ -4,7 +4,6 @@
 
 export const environment = {
   api: './',
-  apiSuffix: '.php',
   appname: 'Hello world with php',
   defaultRoute: 'hello-world',
   production: false,

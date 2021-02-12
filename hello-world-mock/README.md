@@ -1,18 +1,18 @@
 # Hello world with mock
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
-[![dependencies Status](https://david-dm.org/inpercima/hello-world-mock/status.svg)](https://david-dm.org/inpercima/hello-world-mock)
-[![devDependencies Status](https://david-dm.org/inpercima/hello-world-mock/dev-status.svg)](https://david-dm.org/inpercima/hello-world-mock?type=dev)
+[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-mock)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock)
+[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-mock&type=dev)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock&type=dev)
 
 Example app with default options but useMock: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.1.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.2.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 11.0.1` or higher
+* `angular-cli 11.1.4` or higher
 
 ### Node, npm or yarn
 
@@ -110,7 +110,6 @@ Change for prodMode the option `production` to `true` and for mockMode the optio
 ### Table of contents
 
 * [api](#api)
-* [apiSuffix](#apiSuffix)
 * [appname](#appname)
 * [defaultRoute](#defaultRoute)
 * [production](#production)
@@ -121,13 +120,6 @@ Change for prodMode the option `production` to `true` and for mockMode the optio
 Defines the URL to the backend.
 
 * default: `./`
-* type: `string`
-
-### `apiSuffix`
-
-Defines a suffix for the api to the backend.
-
-* default: EMPTY
 * type: `string`
 
 ### `appname`

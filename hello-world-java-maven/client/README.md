@@ -1,7 +1,7 @@
 # Hello world with java and maven - client
 
-[![dependencies Status](https://david-dm.org/inpercima/swaaplate-hw/status.svg?path=hello-world-java-maven/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-java-maven/client)
-[![devDependencies Status](https://david-dm.org/inpercima/swaaplate-hw/dev-status.svg?path=hello-world-java-maven/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-java-maven/client&type=dev)
+[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-java-maven/client)
+[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client&type=dev)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-java-maven/client&type=dev)
 
 ## Getting started
 
@@ -70,7 +70,6 @@ Change for prodMode the option `production` to `true`.
 ### Table of contents
 
 * [api](#api)
-* [apiSuffix](#apiSuffix)
 * [appname](#appname)
 * [defaultRoute](#defaultRoute)
 * [production](#production)
@@ -81,13 +80,6 @@ Change for prodMode the option `production` to `true`.
 Defines the URL to the backend.
 
 * default: `http://localhost:8080/`
-* type: `string`
-
-### `apiSuffix`
-
-Defines a suffix for the api to the backend.
-
-* default: EMPTY
 * type: `string`
 
 ### `appname`

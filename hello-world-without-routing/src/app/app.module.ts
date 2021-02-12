@@ -19,6 +19,8 @@ import { FeaturesModule } from './features/features.module';
     FeaturesModule,
   ],
   providers: [],
-  bootstrap: [ AppComponent ]
+  bootstrap: [
+    AppComponent,
+  ],
 })
 export class AppModule { }

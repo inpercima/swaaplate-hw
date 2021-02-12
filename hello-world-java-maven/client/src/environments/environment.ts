@@ -4,7 +4,6 @@
 
 export const environment = {
   api: 'http://localhost:8080/',
-  apiSuffix: '',
   appname: 'Hello world with java and maven',
   defaultRoute: 'hello-world',
   production: false,
