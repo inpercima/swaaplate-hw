@@ -8,7 +8,9 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
   declarations: [
     HelloWorldComponent,
   ],
-  exports: [ HelloWorldComponent ],
+  exports: [
+    HelloWorldComponent,
+  ],
   imports: [
     CommonModule,
   ],
