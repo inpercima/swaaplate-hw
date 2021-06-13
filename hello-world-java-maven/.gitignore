@@ -40,6 +40,7 @@ testem.log
 typings/
 
 # e2e
+e2e/*.js
 e2e/*.map
 
 # System Files
@@ -235,6 +236,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+.flattened-pom.xml
 
 ### Node ###
 # Logs
@@ -323,6 +325,13 @@ jspm_packages/
 .nuxt
 dist
 
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# rollup.js default build output
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -346,5 +355,8 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# Temporary folders
+temp/
 
 # End of https://www.toptal.com/developers/gitignore/api/node,angular,eclipse,intellij+all,java,maven
