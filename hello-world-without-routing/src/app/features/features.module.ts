@@ -5,10 +5,12 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 
 @NgModule({
-  declarations: [ HelloWorldComponent ],
+  declarations: [
+    HelloWorldComponent,
+  ],
+  exports: [ HelloWorldComponent ],
   imports: [
     CommonModule,
   ],
-  exports: [ HelloWorldComponent ],
 })
 export class FeaturesModule { }
