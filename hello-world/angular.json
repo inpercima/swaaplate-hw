@@ -66,15 +66,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
-            },
-            "dev": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.dev.ts"
-                }
-              ],
+              "namedChunks": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -99,9 +91,6 @@
             },
             "development": {
               "browserTarget": "hello-world:build:development"
-            },
-            "dev": {
-              "browserTarget": "hello-world:build:dev"
             }
           },
           "defaultConfiguration": "development"

@@ -66,15 +66,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
-            },
-            "dev": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.dev.ts"
-                }
-              ],
+              "namedChunks": true,
               "budgets": [
                 {
                   "type": "initial",
@@ -119,9 +111,6 @@
             },
             "development": {
               "browserTarget": "hello-world-mock:build:development"
-            },
-            "dev": {
-              "browserTarget": "hello-world-mock:build:dev"
             },
             "mock": {
               "browserTarget": "hello-world-mock:build:mock"
