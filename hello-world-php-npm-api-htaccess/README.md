@@ -4,13 +4,13 @@
 
 Example app with default options but useYarn: false, backend: php, modRewriteIndex: true, serverAsApi: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.2.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 11.1.4` or higher
+* `angular-cli 12.0.4` or higher
 
 ### Apache and php
 
@@ -19,8 +19,8 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Node, npm or yarn
 
-* `node 12.19.0` or higher in combination with
-  * `npm 6.14.8` or higher, used in this repository,  or
+* `node 14.16.1` or higher in combination with
+  * `npm 6.14.12` or higher, used in this repository,  or
   * `yarn 1.22.5` or higher
 
 ## Dependency check
@@ -29,14 +29,16 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 
 | library    | current version | wanted version | reason |
 | ---------- | --------------- | -------------- | ------ |
-| copy-webpack-plugin | 4.6.0 | 6.2.0 | "copy-webpack-plugin@6.2.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0" |
+| copy-webpack-plugin | 9.0.0  | 9.0.0          | "copy-webpack-plugin@9.0.0" has unmet peer dependency "webpack@^5.1.0" |
+| rxjs       | 6.6.0           | 7.1.0          | "@angular/common@12.0.4" has incorrect peer dependency "rxjs@^6.5.3" |
+| typescript | 4.2.3           | 4.3.2          | "@angular-devkit/build-angular@12.0.4" has incorrect peer dependency "typescript@~4.2.3" |
 
 ## Getting started
 
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world-php-npm-api-htaccess
+cd hello-world-php-npm-api-htaccess
 ```
 
 ## Usage
@@ -45,4 +47,4 @@ cd swaaplate-hw/hello-world-php-npm-api-htaccess
 
 For the client check [hello-world-php-npm-api-htaccess - client](./client).
 
-For the server check [hello-world-php-npm-api-htaccess - server](./server).
+For the server check [hello-world-php-npm-api-htaccess - api](./api).

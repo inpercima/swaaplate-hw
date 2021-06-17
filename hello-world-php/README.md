@@ -29,7 +29,9 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 
 | library    | current version | wanted version | reason |
 | ---------- | --------------- | -------------- | ------ |
-| copy-webpack-plugin | 9.0.0 | 9.0.0 | "copy-webpack-plugin@9.0.0" has unmet peer dependency "webpack@^5.1.0" |
+| copy-webpack-plugin | 9.0.0  | 9.0.0          | "copy-webpack-plugin@9.0.0" has unmet peer dependency "webpack@^5.1.0" |
+| rxjs       | 6.6.0           | 7.1.0          | "@angular/common@12.0.4" has incorrect peer dependency "rxjs@^6.5.3" |
+| typescript | 4.2.3           | 4.3.2          | "@angular-devkit/build-angular@12.0.4" has incorrect peer dependency "typescript@~4.2.3" |
 
 ## Getting started
 
