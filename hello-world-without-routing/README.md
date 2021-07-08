@@ -6,13 +6,13 @@
 
 Example app with default options but routing: false.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 12.0.4` or higher
+* `angular-cli 12.1.1` or higher
 
 ### Node, npm or yarn
 
@@ -24,10 +24,9 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 Some libraries could not be updated b/c of peer dependencies or knowing issues.
 
-| library    | current version | wanted version | reason |
-| ---------- | --------------- | -------------- | ------ |
-| rxjs       | 6.6.0           | 7.1.0          | "@angular/common@12.0.4" has incorrect peer dependency "rxjs@^6.5.3" |
-| typescript | 4.2.3           | 4.3.2          | "@angular-devkit/build-angular@12.0.4" has incorrect peer dependency "typescript@~4.2.3" |
+| library    | current version | last version | reason |
+| ---------- | --------------- | ------------ | ------ |
+| rxjs       | 6.6.0           | 7.2.0        | "@angular/common@12.1.1" has incorrect peer dependency "rxjs@^6.5.3" |
 
 ## Getting started
 
