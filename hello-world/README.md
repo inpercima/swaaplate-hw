@@ -6,7 +6,7 @@
 
 Example app with default options.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0.
 
 ## Prerequisites
 
