@@ -6,7 +6,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 
 @NgModule({
   declarations: [
-    HelloWorldComponent
+    HelloWorldComponent,
   ],
   imports: [
     CommonModule,
