@@ -58,9 +58,9 @@
   "private": true,
   "repository": "https://github.com/inpercima/swaaplate-hw",
   "scripts": {
-    "build:dev": "ng lint && ng build --configuration=dev",
-    "serve:dev": "ng serve -o --configuration=dev",
-    "watch:dev": "ng build --watch --configuration=dev",
+    "build:dev": "ng lint && ng build --configuration=development",
+    "serve:dev": "ng serve -o --configuration=development",
+    "watch:dev": "ng build --watch --configuration=development",
     "build:mock": "ng lint && ng build --configuration=mock",
     "run:mock": "json-server mock/db.json --middlewares mock/middleware.js",
     "serve:mock": "ng serve -o --configuration=mock",

@@ -1,7 +1,7 @@
 # Hello world with java and maven - client
 
-[![dependencies Status](https://status.david-dm.org/gh/inpercima/hello-world-java-maven.svg?path=client)](https://david-dm.org/inpercima/hello-world-java-maven?path=client)
-[![devDependencies Status](https://status.david-dm.org/gh/inpercima/hello-world-java-maven.svg?path=client&type=dev)](https://david-dm.org/inpercima/hello-world-java-maven?path=client&type=dev)
+[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client)](https://david-dm.org/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client)
+[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client&type=dev)](https://david-dm.org/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client&type=dev)
 
 ## Getting started
 

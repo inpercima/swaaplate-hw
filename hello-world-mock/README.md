@@ -6,7 +6,7 @@
 
 Example app with default options but useMock: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.1.
 
 ## Prerequisites
 
