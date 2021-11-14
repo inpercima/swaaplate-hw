@@ -6,19 +6,19 @@
 
 Example app with default options.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.1.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.2.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 12.1.1` or higher
+* `angular-cli 13.0.2` or higher
 
 ### Node, npm or yarn
 
-* `node 14.16.1` or higher in combination with
-  * `npm 6.14.12` or higher or
-  * `yarn 1.22.5` or higher, used in this repository
+* `node 16.13.0` or higher in combination with
+  * `npm 8.1.0` or higher or
+  * `yarn 1.22.11` or higher, used in this repository
 
 ## Dependency check
 
@@ -33,7 +33,7 @@ Some libraries could not be updated b/c of peer dependencies or knowing issues.
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world
+cd hello-world
 
 # install tools and frontend dependencies
 yarn
