@@ -9,6 +9,8 @@ environment.prod.ts
 
 .classpath
 
+.angular
+
 # end project specific
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,angular,eclipse,intellij+all
@@ -319,5 +321,15 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+### Node Patch ###
+# Serverless Webpack directories
+.webpack/
+
+# Optional stylelint cache
+.stylelintcache
+
+# SvelteKit build / generate output
+.svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node,angular,eclipse,intellij+all
