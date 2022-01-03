@@ -25,7 +25,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world
+cd swaaplate-hw/hello-world
 
 # install tools and frontend dependencies
 yarn
