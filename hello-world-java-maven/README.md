@@ -10,7 +10,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Angular CLI
 
-* `angular-cli 13.0.2` or higher
+* `angular-cli 13.1.2` or higher
 
 ### Java
 
@@ -27,7 +27,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world-java-maven
+cd hello-world-java-maven
 ```
 
 ## Usage
