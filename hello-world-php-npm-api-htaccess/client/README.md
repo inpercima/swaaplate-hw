@@ -1,8 +1,5 @@
 # Hello world with php, npm, api folder and htaccess file - client
 
-[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php-npm-api-htaccess/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client)
-[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php-npm-api-htaccess/client&type=dev)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php-npm-api-htaccess/client&type=dev)
-
 ## Getting started
 
 ```bash
