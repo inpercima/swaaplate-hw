@@ -1,8 +1,5 @@
 # Hello world with java and maven - client
 
-[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client)](https://david-dm.org/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client)
-[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client&type=dev)](https://david-dm.org/inpercima/swaaplate-hw.svg?path=hello-world-java-maven/client&type=dev)
-
 ## Getting started
 
 ```bash
