@@ -1,24 +1,22 @@
 # Hello world with mock
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
-[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-mock)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock)
-[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-mock&type=dev)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-mock&type=dev)
 
 Example app with default options but useMock: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.2.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.3.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 13.1.2` or higher
+* `angular-cli 13.2.4` or higher
 
 ### Node, npm or yarn
 
 * `node 16.13.0` or higher in combination with
   * `npm 8.1.0` or higher or
-  * `yarn 1.22.11` or higher, used in this repository
+  * `yarn 1.22.17` or higher, used in this repository
 
 ## Getting started
 
