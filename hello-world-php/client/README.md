@@ -1,8 +1,5 @@
 # Hello world with php - client
 
-[![dependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php/client)](https://david-dm.org/inpercima/swaaplate-hw?path=hello-world-php/client)
-[![devDependencies Status](https://status.david-dm.org/gh/inpercima/swaaplate-hw.svg?path=hello-world-php/client&type=dev)](https://david-dm.org/swaaplate-hw?path=hello-world-php/client&type=dev)
-
 ## Getting started
 
 ```bash

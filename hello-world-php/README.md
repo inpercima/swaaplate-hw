@@ -4,24 +4,24 @@
 
 Example app with default options but backend: php.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.2.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.3.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 13.1.2` or higher
+* `angular-cli 13.2.4` or higher
 
 ### Apache and php
 
 * `Apache 2.4` or higher
-* `php 7.3` or higher
+* `php 7.4` or higher
 
 ### Node, npm or yarn
 
 * `node 16.13.0` or higher in combination with
   * `npm 8.1.0` or higher or
-  * `yarn 1.22.11` or higher, used in this repository
+  * `yarn 1.22.17` or higher, used in this repository
 
 ## Getting started
 
