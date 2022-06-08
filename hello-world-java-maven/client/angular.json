@@ -166,6 +166,5 @@
         }
       }
     }
-  },
-  "defaultProject": "hello-world-java-maven"
+  }
 }
