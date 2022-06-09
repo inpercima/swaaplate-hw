@@ -170,6 +170,5 @@
         }
       }
     }
-  },
-  "defaultProject": "hello-world-php-npm-api-htaccess"
+  }
 }
