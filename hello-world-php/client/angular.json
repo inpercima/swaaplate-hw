@@ -169,6 +169,5 @@
         }
       }
     }
-  },
-  "defaultProject": "hello-world-php"
+  }
 }
