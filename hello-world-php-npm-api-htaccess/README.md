@@ -4,7 +4,7 @@
 
 Example app with default options but useYarn: false, backend: php, modRewriteIndex: true, serverAsApi: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.5.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.6.
 
 ## Prerequisites
 
