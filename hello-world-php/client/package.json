@@ -18,9 +18,9 @@
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4",
-    "@angular/cdk": "14.0.4",
+    "@angular/cdk": "14.1.0",
     "@angular/flex-layout": "14.0.0-beta.40",
-    "@angular/material": "14.0.4"
+    "@angular/material": "14.1.0"
   },
   "description": "Example app with default options but backend: php.",
   "devDependencies": {
