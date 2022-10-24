@@ -4,13 +4,13 @@
 
 Example app with default options but backend: php.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.7.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.8.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 14.1.0` or higher
+* `angular-cli 14.2.6` or higher
 
 ### Apache and php
 
@@ -19,8 +19,8 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Node, npm or yarn
 
-* `node 16.16.0` or higher in combination with
-  * `npm 8.12.2` or higher or
+* `node 16.17.0` or higher in combination with
+  * `npm 8.19.2` or higher or
   * `yarn 1.22.19` or higher, used in this repository
 
 ## Getting started
@@ -35,6 +35,6 @@ cd swaaplate-hw/hello-world-php
 
 ### Modules
 
-For the client check [hello-world-php - client](./client).
+For the frontend check [hello-world-php - client](./client).
 
-For the server check [hello-world-php - server](./server).
+For the backend check [hello-world-php - server](./server).
