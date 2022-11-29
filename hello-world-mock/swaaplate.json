@@ -7,7 +7,7 @@
     "language": "js",
     "php": {
       "modRewritePhpExtension": false,
-      "serverAsApi": false
+      "runAsApi": false
     }
   },
   "frontend": {
