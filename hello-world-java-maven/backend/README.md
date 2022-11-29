@@ -1,10 +1,10 @@
-# Hello world with java and maven - server
+# Hello world with java and maven - backend
 
 ## Getting started
 
 ```bash
-# all commands used in ./server
-cd server
+# all commands used in ./backend
+cd backend
 ```
 
 Create environment files for `development mode` and `production mode`.

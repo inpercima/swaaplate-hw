@@ -1,10 +1,10 @@
-# Hello world with java and maven - client
+# Hello world with java and maven - frontend
 
 ## Getting started
 
 ```bash
-# all commands used in ./client
-cd client
+# all commands used in ./frontend
+cd frontend
 
 # install tools and frontend dependencies
 yarn
