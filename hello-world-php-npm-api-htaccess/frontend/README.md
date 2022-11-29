@@ -1,10 +1,10 @@
-# Hello world with php, npm, api folder and htaccess file - client
+# Hello world with php, npm, api folder and htaccess file - frontend
 
 ## Getting started
 
 ```bash
-# all commands used in ./client
-cd client
+# all commands used in ./frontend
+cd frontend
 
 # install tools and frontend dependencies
 npm install

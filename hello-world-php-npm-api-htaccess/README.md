@@ -4,13 +4,13 @@
 
 Example app with default options but useYarn: false, backend: php, modRewriteIndex: true, serverAsApi: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.3.8.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.4.0.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 14.2.6` or higher
+* `angular-cli 15.0.1` or higher
 
 ### Apache and php
 
@@ -19,7 +19,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 
 ### Node, npm or yarn
 
-* `node 16.17.0` or higher in combination with
+* `node 18.10.0` or higher in combination with
   * `npm 8.19.2` or higher, used in this repository, or
   * `yarn 1.22.19` or higher
 
@@ -35,6 +35,6 @@ cd swaaplate-hw/hello-world-php-npm-api-htaccess
 
 ### Modules
 
-For the frontend check [hello-world-php-npm-api-htaccess - client](./client).
+For the frontend check [hello-world-php-npm-api-htaccess - frontend](./frontend).
 
 For the backend check [hello-world-php-npm-api-htaccess - api](./api).
