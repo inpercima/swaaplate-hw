@@ -5,8 +5,8 @@ module.exports = {
   plugins: [
     new CopyWebpackPlugin({
       patterns: [{
-        from: '../server',
-        to: './server',
+        from: '../backend',
+        to: './backend',
         globOptions: {
           ignore: ['**/config.default.php', `**/config.${invertedMode}.php`, '**/README.md'],
         },

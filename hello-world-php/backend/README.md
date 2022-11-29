@@ -1,10 +1,10 @@
-# Hello world with php - server
+# Hello world with php - backend
 
 ## Getting started
 
 ```bash
-# all commands used in ./server
-cd server
+# all commands used in ./backend
+cd backend
 ```
 
 Create config files for `development mode` and `production mode`.
