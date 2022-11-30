@@ -1,0 +1,54 @@
+{
+  "backend": {
+    "javaKt": {
+      "management": "",
+      "packagePath": ""
+    },
+    "language": "nestjs",
+    "php": {
+      "modRewritePhpExtension": false,
+      "runAsApi": false
+    }
+  },
+  "frontend": {
+    "buildDir": "dist",
+    "ghUser": "inpercima",
+    "installDependencies": true,
+    "language": "en",
+    "modules": {
+      "enabled": true,
+      "features": {
+        "defaultRoute": "hello-world",
+        "name": "features"
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found"
+      },
+      "routing": true
+    },
+    "packageJson": {
+      "contributors": [{
+        "name": "Marcel Jänicke",
+        "email": "inpercima@gmail.com"
+      }],
+      "homepage": "https://github.com/inpercima/swaaplate-hw",
+      "repository": "https://github.com/inpercima/swaaplate-hw"
+    },
+    "prefix": "hw",
+    "theme": "indigo-pink",
+    "useGoogleFonts": true,
+    "useYarn": true
+  },
+  "general": {
+    "author": "Marcel Jänicke",
+    "description": "Example app with default options but backend: nestjs.",
+    "modRewriteIndex": false,
+    "name": "hello-world-nestjs",
+    "title": "Hello world with nestjs",
+    "useDocker": false,
+    "useMITLicense": true,
+    "useMock": false,
+    "useSecurity": false
+  }
+}
