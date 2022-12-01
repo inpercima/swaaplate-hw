@@ -4,7 +4,7 @@
       "management": "",
       "packagePath": ""
     },
-    "language": "js",
+    "language": "none",
     "php": {
       "modRewritePhpExtension": false,
       "runAsApi": false
