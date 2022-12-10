@@ -4,7 +4,7 @@
 
 Example app with default options but backend: php.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.4.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.0-SNAPSHOT.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd swaaplate-hw/hello-world-php
+cd hello-world-php
 ```
 
 ## Usage
