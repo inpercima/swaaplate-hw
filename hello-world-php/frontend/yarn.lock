@@ -209,10 +209,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/cdk@15.0.1":
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-15.0.1.tgz#45208c42ab929e42104faa64c70de978788fceda"
-  integrity sha512-yV/nietivRC8JJrEt0M3RXo+4PMk8cReZVhbV0ME6MOehJ7NBw7uIBjfIbLWE9YGEHZi+TCzdxqDuWqH5RCiog==
+"@angular/cdk@15.0.2":
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-15.0.2.tgz#56781c17f200d842ddc2233ceeb6d5ecf3c98760"
+  integrity sha512-khTZT/vWDLoCkIxXyrpmeFIMfsED3KdKQqWCiuvUHGHhJn5iOa2wDQXQEkrFpNaQ4v1mbHE2I11DljiieIyv5w==
   dependencies:
     tslib "^2.3.0"
   optionalDependencies:
@@ -286,10 +286,10 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/material@15.0.1":
-  version "15.0.1"
-  resolved "https://registry.yarnpkg.com/@angular/material/-/material-15.0.1.tgz#44e5ae2eb768c09bf16f082a3c662df7eb1ec543"
-  integrity sha512-JXMcRf27HgXwjoNOKD04YubJ14M9Y66g5Ol4R5EDShnwvvzU1OKLjaYN3SYpH5iMauZztjljsVBsLlO8n/TVFA==
+"@angular/material@15.0.2":
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-15.0.2.tgz#9c64e990a95d1710cb877cd1805d01f2d068254b"
+  integrity sha512-jXjgKFK09DcqShXSvKJLQ98MSqV2LuBO6ZuJj/gz96ZWoAhTTuWn0hL3xsoKp+kaF5DPdDFd24gLr8YFRibaIQ==
   dependencies:
     "@material/animation" "15.0.0-canary.7971d6ad5.0"
     "@material/auto-init" "15.0.0-canary.7971d6ad5.0"
@@ -1334,10 +1334,10 @@
     tunnel-agent "^0.6.0"
     uuid "^8.3.2"
 
-"@cypress/schematic@2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@cypress/schematic/-/schematic-2.3.0.tgz#073b937f5af0bd5aa77a8339385be4c55fe446e7"
-  integrity sha512-LBKX20MUUYF2Xu+1+KpVbLCoMvt2Osa80yQfonduVsLJ/p8JxtLHqufuf/ryJp9Gm9R5sDfk/YhHL+rB7a+gsg==
+"@cypress/schematic@2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@cypress/schematic/-/schematic-2.4.0.tgz#36bd943acd90a46af5718965d0b63cc0e106858a"
+  integrity sha512-aor8hQ+gMXqx/ASdo7CUGo/sMEWwwfSRsLr99rM2GjvW+pZnCKKTnRG4UPf8Ro9SevLJj7KRZAZWxa5MAkJzZA==
   dependencies:
     "@angular-devkit/architect" "^0.1402.1"
     "@angular-devkit/core" "^14.2.1"
@@ -2408,9 +2408,9 @@
   integrity sha512-Y4XFY5VJAuw0FgAqPNd6NNoV44jbq9Bz2L7Rh/J6jLTiHBSBJa9fxqQIvkIld4GsoDOcCbvzOUAbLPsSKKg+uA==
 
 "@types/node@*", "@types/node@>=10.0.0":
-  version "18.11.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.12.tgz#89e7f8aa8c88abf432f9bd594888144d7dba10aa"
-  integrity sha512-FgD3NtTAKvyMmD44T07zz2fEf+OKwutgBCEVM8GcvMGVGaDktiLNTDvPwC/LUe3PinMW+X6CuLOF2Ui1mAlSXg==
+  version "18.11.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.13.tgz#dff34f226ec1ac0432ae3b136ec5552bd3b9c0fe"
+  integrity sha512-IASpMGVcWpUsx5xBOrxMj7Bl8lqfuTY7FKAnPmu5cHkfQVWF8GulWS1jbRqA934qZL35xh5xN/+Xe/i26Bod4w==
 
 "@types/node@^14.14.31":
   version "14.18.34"
@@ -4796,9 +4796,9 @@ globals@^11.1.0:
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
 globals@^13.15.0:
-  version "13.18.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.18.0.tgz#fb224daeeb2bb7d254cd2c640f003528b8d0c1dc"
-  integrity sha512-/mR4KI8Ps2spmoc0Ulu9L7agOF0du1CZNQ3dke8yItYlyKNmGrkONemBbd6V8UTc1Wgcqn21t3WYB7dbRmh6/A==
+  version "13.19.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-13.19.0.tgz#7a42de8e6ad4f7242fbcca27ea5b23aca367b5c8"
+  integrity sha512-dkQ957uSRWHw7CFXLUtUHQI3g3aWApYhfNR2O6jn/907riyTYKVBmxYVROkBcY614FSSeSJh7Xm7SrUWCxvJMQ==
   dependencies:
     type-fest "^0.20.2"
 
@@ -6716,10 +6716,19 @@ postcss-value-parser@^4.1.0, postcss-value-parser@^4.2.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.2.0.tgz#723c09920836ba6d3e5af019f92bc0971c02e514"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss@8.4.19, postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.7:
+postcss@8.4.19:
   version "8.4.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
   integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
+  dependencies:
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
+
+postcss@^8.2.14, postcss@^8.3.7, postcss@^8.4.7:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
