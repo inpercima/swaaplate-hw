@@ -4,13 +4,13 @@
 
 Example app with default options but backend: nestjs.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.4.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.1.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 15.0.2` or higher
+* `angular-cli 15.0.4` or higher
 
 ### Node, npm or yarn
 
