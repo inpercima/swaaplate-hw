@@ -23,7 +23,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world-nestjs
+cd swaaplate-hw/hello-world-nestjs
 ```
 
 ## Usage
