@@ -4,13 +4,13 @@
 
 Example app with default options but backend: php.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.0-SNAPSHOT.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.1-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 15.0.3` or higher
+* `angular-cli 15.0.4` or higher
 
 ### Apache and php
 
