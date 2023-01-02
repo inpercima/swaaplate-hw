@@ -4,13 +4,13 @@
 
 Example app with default options but useYarn: false, backend: php, modRewriteIndex: true, serverAsApi: true.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.0.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.1.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 15.0.2` or higher
+* `angular-cli 15.0.4` or higher
 
 ### Apache and php
 
