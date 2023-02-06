@@ -4,13 +4,13 @@
 
 Example app with default options.
 
-This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.1.
+This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.5.2-SNAPSHOT.
 
 ## Prerequisites
 
 ### Angular CLI
 
-* `angular-cli 15.0.4` or higher
+* `angular-cli 15.1.4` or higher
 
 ### Node, npm or yarn
 
