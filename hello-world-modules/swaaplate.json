@@ -44,10 +44,10 @@
   },
   "general": {
     "author": "Marcel Jänicke",
-    "description": "Example app with default options.",
+    "description": "Example app with default options but standalone: false.",
     "modRewriteIndex": false,
-    "name": "hello-world",
-    "title": "Hello world",
+    "name": "hello-world-modules",
+    "title": "Hello world with modules",
     "useDocker": false,
     "useMITLicense": true,
     "useMock": false,

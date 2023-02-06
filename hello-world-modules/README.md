@@ -1,8 +1,8 @@
-# Hello world
+# Hello world with modules
 
 [![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE.md)
 
-Example app with default options.
+Example app with default options but standalone: false.
 
 This project was generated with [swaaplate](https://github.com/inpercima/swaaplate) version 2.6.0-SNAPSHOT.
 
@@ -23,7 +23,7 @@ This project was generated with [swaaplate](https://github.com/inpercima/swaapla
 ```bash
 # clone project
 git clone https://github.com/inpercima/swaaplate-hw
-cd hello-world
+cd hello-world-modules
 
 # install tools and frontend dependencies
 yarn
@@ -102,7 +102,7 @@ Defines the URL to the backend.
 
 Applicationwide title of the app, displayed in title and toolbar.
 
-* default: `Hello world`
+* default: `Hello world with modules`
 * type: `string`
 
 ### `defaultRoute`
