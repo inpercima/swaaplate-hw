@@ -11,24 +11,22 @@
     }
   },
   "frontend": {
-    "architecture": {
-      "standalone": false,
-      "modules": {
-        "features": {
-          "firstComponent": "hello-world",
-          "name": "features"
-        },
-        "notFound": {
-          "enabled": true,
-          "name": "not-found"
-        }
-      },
-      "routing": true
-    },
     "buildDir": "dist",
     "ghUser": "inpercima",
     "installDependencies": true,
     "language": "en",
+    "modules": {
+      "enabled": true,
+      "features": {
+        "defaultRoute": "hello-world",
+        "name": "features"
+      },
+      "notFound": {
+        "enabled": true,
+        "name": "not-found"
+      },
+      "routing": true
+    },
     "packageJson": {
       "contributors": [{
         "name": "Marcel Jänicke",

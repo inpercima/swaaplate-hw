@@ -3,23 +3,16 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { RouterTestingModule } from '@angular/router/testing';
-import { AppComponent } from './app.component';
 import { AppRoutingPipe } from './app-routing.pipe';
+import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      imports: [
-        MatTabsModule,
-        MatToolbarModule,
-        RouterTestingModule
-      ],
-      declarations: [
-        AppComponent,
-        AppRoutingPipe
-      ],
-    }).compileComponents();
-  });
+  beforeEach(() =>
+    TestBed.configureTestingModule({
+      imports: [MatTabsModule, MatToolbarModule, RouterTestingModule],
+      declarations: [AppComponent, AppRoutingPipe],
+    })
+  );
 
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
