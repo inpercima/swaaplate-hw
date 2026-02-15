@@ -2371,9 +2371,9 @@
     tslib "^2.1.0"
 
 "@modelcontextprotocol/sdk@^1.8.0":
-  version "1.25.3"
-  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/sdk/-/sdk-1.25.3.tgz#a665ae5f983a5cdfe1a1809aafb48110b04faef1"
-  integrity sha512-vsAMBMERybvYgKbg/l4L1rhS7VXV1c0CtyJg72vwxONVX0l4ZfKVAnZEWTQixJGTzKnELjQ59e4NbdFDALRiAQ==
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/@modelcontextprotocol/sdk/-/sdk-1.26.0.tgz#5b35d73062125f126cc70b0be83cbab53bcdde74"
+  integrity sha512-Y5RmPncpiDtTXDbLKswIJzTqu2hyBKxTNsgKqKclDbhIgg1wgtf1fRuvxgTnRfcnxtvvgbIEcqUOzZrJ6iSReg==
   dependencies:
     "@hono/node-server" "^1.19.9"
     ajv "^8.17.1"
@@ -2383,14 +2383,15 @@
     cross-spawn "^7.0.5"
     eventsource "^3.0.2"
     eventsource-parser "^3.0.0"
-    express "^5.0.1"
-    express-rate-limit "^7.5.0"
-    jose "^6.1.1"
+    express "^5.2.1"
+    express-rate-limit "^8.2.1"
+    hono "^4.11.4"
+    jose "^6.1.3"
     json-schema-typed "^8.0.2"
     pkce-challenge "^5.0.0"
     raw-body "^3.0.0"
     zod "^3.25 || ^4.0"
-    zod-to-json-schema "^3.25.0"
+    zod-to-json-schema "^3.25.1"
 
 "@ngtools/webpack@15.2.4":
   version "15.2.4"
@@ -4958,10 +4959,12 @@ executable@^4.1.1:
   dependencies:
     pify "^2.2.0"
 
-express-rate-limit@^7.5.0:
-  version "7.5.1"
-  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-7.5.1.tgz#8c3a42f69209a3a1c969890070ece9e20a879dec"
-  integrity sha512-7iN8iPMDzOMHPUYllBEsQdWVB6fPDMPqwjBaFrgr4Jgr/+okjvzAy+UHlYYL/Vs0OsOrMkwS6PJDkFlJwoxUnw==
+express-rate-limit@^8.2.1:
+  version "8.2.1"
+  resolved "https://registry.yarnpkg.com/express-rate-limit/-/express-rate-limit-8.2.1.tgz#ec75fdfe280ecddd762b8da8784c61bae47d7f7f"
+  integrity sha512-PCZEIEIxqwhzw4KF0n7QF4QqruVTcF73O5kFKUnGOyjbCCgizBBiFaYpd/fnBLUMPw/BWw9OsiN7GgrNYr7j6g==
+  dependencies:
+    ip-address "10.0.1"
 
 express-urlrewrite@^1.4.0:
   version "1.4.0"
@@ -5008,7 +5011,7 @@ express@^4.17.1, express@^4.17.3:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-express@^5.0.1:
+express@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/express/-/express-5.2.1.tgz#8f21d15b6d327f92b4794ecf8cb08a72f956ac04"
   integrity sha512-hIS4idWWai69NezIdRt2xFVofaF4j+6INOpJlVOLDO8zXGpUVEVzIYk12UUi2JzjEzWL3IOAxcTubgz9Po0yXw==
@@ -5673,6 +5676,11 @@ hdr-histogram-percentiles-obj@^3.0.0:
   resolved "https://registry.yarnpkg.com/hdr-histogram-percentiles-obj/-/hdr-histogram-percentiles-obj-3.0.0.tgz#9409f4de0c2dda78e61de2d9d78b1e9f3cba283c"
   integrity sha512-7kIufnBqdsBGcSZLPJwqHT3yhk1QTsSlFsVD3kx5ixH/AlgBs9yM1q6DPhXZ8f8gtdqgh7N7/5btRLpQsS2gHw==
 
+hono@^4.11.4:
+  version "4.11.9"
+  resolved "https://registry.yarnpkg.com/hono/-/hono-4.11.9.tgz#4e0dec5309a8f05216c777cbd93131a41cf28eb9"
+  integrity sha512-Eaw2YTGM6WOxA6CXbckaEvslr2Ne4NFsKrvc0v97JD5awbmeBLO5w9Ho9L9kmKonrwF9RJlW6BxT1PVv/agBHQ==
+
 hosted-git-info@^6.0.0:
   version "6.1.1"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-6.1.1.tgz#629442c7889a69c05de604d52996b74fe6f26d58"
@@ -5943,6 +5951,11 @@ internal-slot@^1.0.3, internal-slot@^1.0.4, internal-slot@^1.0.5:
     get-intrinsic "^1.2.0"
     has "^1.0.3"
     side-channel "^1.0.4"
+
+ip-address@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/ip-address/-/ip-address-10.0.1.tgz#a8180b783ce7788777d796286d61bce4276818ed"
+  integrity sha512-NWv9YLW4PoW2B7xtzaS3NCot75m6nK7Icdv0o3lfMceJVRfSoQwqD4wEH5rLwoKJwUiZ/rfpiVBhnaF0FK4HoA==
 
 ip@^2.0.0:
   version "2.0.0"
@@ -6311,7 +6324,7 @@ jju@^1.1.0:
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.4.0.tgz#a3abe2718af241a2b2904f84a625970f389ae32a"
   integrity sha512-8wb9Yw966OSxApiCt0K3yNJL8pnNeIv+OEq2YMidz4FKP6nonSRoOXc80iXY4JaN2FC11B9qsNmDsm+ZOfMROA==
 
-jose@^6.1.1:
+jose@^6.1.3:
   version "6.1.3"
   resolved "https://registry.yarnpkg.com/jose/-/jose-6.1.3.tgz#8453d7be88af7bb7d64a0481d6a35a0145ba3ea5"
   integrity sha512-0TpaTfihd4QMNwrz/ob2Bp7X04yuxJkjRGi4aKmOqwhov54i6u79oCv7T+C7lo70MKH6BesI3vscD1yb/yzKXQ==
@@ -9640,7 +9653,7 @@ yocto-queue@^0.1.0:
   resolved "https://registry.yarnpkg.com/yocto-queue/-/yocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 
-zod-to-json-schema@^3.25.0:
+zod-to-json-schema@^3.25.1:
   version "3.25.1"
   resolved "https://registry.yarnpkg.com/zod-to-json-schema/-/zod-to-json-schema-3.25.1.tgz#7f24962101a439ddade2bf1aeab3c3bfec7d84ba"
   integrity sha512-pM/SU9d3YAggzi6MtR4h7ruuQlqKtad8e9S0fmxcMi+ueAK5Korys/aWcV9LIIHTVbj01NdzxcnXSN+O74ZIVA==
